@@ -1,5 +1,4 @@
-
-.header-main-div{
+.header-main-div {
   position: absolute;
   z-index: 1;
   width: 1280px;
@@ -11,56 +10,55 @@
   margin-left: 100px;
 }
 
-.header-logo-svg-main-div{
-  color: #FBFBFB;
+.header-logo-svg-main-div {
+  color: #fbfbfb;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-left: 100px;
-  
-}.header-logo-svg-icon{
+}
+.header-logo-svg-icon {
   max-width: 194px;
   height: 18px;
 }
 
-
-.header-menu-ul-button-div{
+.header-menu-ul-button-div {
   display: flex;
   align-items: center;
   margin-right: 100px;
 }
-.header-menu-ul{
+.header-menu-ul {
   display: flex;
   align-items: center;
   margin-right: 20px;
 }
 
-.header-menu-li{
-  border: 1px solid  rgba(255, 255, 255,0.4);
+.header-menu-li {
+  border: 1px solid rgba(255, 255, 255, 0.4);
   border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 10px;
   line-height: 1em;
-  color: #FBFBFB;
+  color: #fbfbfb;
   margin-right: 8px;
   max-height: 44px;
 }
 
-.header-button{
+.header-button {
   align-items: center;
   width: 157px;
   height: 52px;
   border-radius: 30px;
   border-style: none;
-  background-color: #7A3145;
-  color: #FBFBFB;
+  background-color: #7a3145;
+  color: #fbfbfb;
   line-height: 1.2em;
   font-size: 18px;
   font-family: Inter Tight, semibold;
 }
 
-.header-button:hover{
+.header-button:hover {
   background-color: #622133;
 }
