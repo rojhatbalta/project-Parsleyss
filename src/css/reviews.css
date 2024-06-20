@@ -4,9 +4,6 @@
   }
   
   .customers-container {
-    padding: 24px;
-    width: 343px;
-    height: 258px;
   }
   
   .review-title {
@@ -21,7 +18,7 @@
   }
   .title-text {
     color: #141414;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     line-height: 20px;
     padding-top: 30px;
@@ -32,34 +29,39 @@
   #customer-ul {
     display: flex;
     flex-direction: row;
-    gap: 25px;
+    gap: 40px;
   }
   .customer-list {
-    width: calc((100%-100px)/3);
     border: 1px solid rgba(122, 49, 69, 0.3);
     border-radius: 25px;
     padding: 20px;
     border-radius: 24px;
+    width: 343px;
+    height: 258px;
+    display: flex;
   }
   .customer-img {
     width: 56px;
     height: 56px;
     border-radius: 12px;
     margin: 0 auto;
+    color: rgba(224, 224, 224, 1);
   }
+
+
   .customer-texts {
     display: flex;
     flex-direction: column;
     text-align: center;
     margin: 0 auto;
-    width: 90%
+    width: 85%;
   }
   .subtitle {
     color: #141414;
     font-weight: 600;
     font-size: 18px;
     line-height: 19.8px;
-    padding-top: 30px;
+    padding-top: 35px;
     padding-bottom: 15px;
   }
   .text {
@@ -68,4 +70,3 @@
     font-size: 16px;
     line-height: 22.4px;
   }
-  
