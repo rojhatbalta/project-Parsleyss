@@ -13,6 +13,8 @@
 }
 .footer-svg {
   fill: #fbfbfb;
+  width: 18px;
+  height: 18px;
   padding-right: 10px;
 }
 .vector {
