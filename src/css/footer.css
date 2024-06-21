@@ -13,9 +13,14 @@
 }
 .footer-svg {
   fill: #fbfbfb;
+  padding-right: 10px;
+}
+.vector {
+  display: flex;
 }
 .greenharvest {
   padding-bottom: 25px;
+  font-size: 22px;
 }
 .logo-text {
   font-size: 10px;
