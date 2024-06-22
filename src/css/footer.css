@@ -1,65 +1,69 @@
-.footer {
-  background-color: #7a3145;
-}
 .footer-first {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  color: #fbfbfb;
+  width: 1080px;
+  padding-left: 100px;
   padding-top: 50px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  gap: 125px;
+  color: #fbfbfb;
+  background-color: #7a3145;
 }
-.logo-footer {
-  padding-left: 50px;
-  padding-top: 15px;
+.logo-n-menu-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo-n-text {
+  display: flex;
+  flex-direction: column;
+  width: 265px;
+  gap: 25px;
 }
 .footer-svg {
-  fill: #fbfbfb;
-  width: 18px;
   height: 18px;
-  padding-right: 10px;
-}
-.vector {
-  display: flex;
-}
-.greenharvest {
-  padding-bottom: 25px;
-  font-size: 22px;
 }
 .logo-text {
-  font-size: 10px;
-  line-height: 1.6;
+  font-size: 16px;
+  line-height: 20px;
 }
 .menu-contacts-footer {
   display: flex;
-  align-items: center;
+  flex-direction: row;
   gap: 121px;
 }
 .menu {
-  font-size: 24px;
-  line-height: 45px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.footer-menu-item {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 600;
 }
 
 .contacts {
-  padding-bottom: 30px;
-  padding-right: 50px;
-  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 215px;
+  gap: 25px;
 }
-.adress {
-  padding-top: 15px;
-  line-height: 1.6;
+.menu-contact-item {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 600;
 }
 .policy-copy-footer {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  padding-top: 125px;
-  padding-bottom: 40px;
-  color: #fbfbfb80;
-
-  font-size: 12px;
+}
+.privacy-n-cookie {
+  font-size: 18px;
   line-height: 20px;
-}
-.policy {
-  padding-left: 50px;
-}
-.copy {
-  padding-right: 50px;
+  color: rgba(251, 251, 251, 0.5);
 }
