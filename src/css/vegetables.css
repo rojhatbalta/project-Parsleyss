@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .vegetables-section {
   background-color: #7a3145;
 }
@@ -87,4 +88,82 @@
   color: #ffffff;
   overflow-clip-margin: content-box;
   overflow: clip;
+=======
+.section-vegetables {
+  display: flex;
+  flex-direction: column;
+  width: 1080px;
+  padding: 100px;
+  gap: 50px;
+  background-color: #7a3145;
+}
+
+.vegetables-text {
+  display: flex;
+  flex-direction: column;
+  width: 626px;
+  gap: 25px;
+}
+
+.vegetables-header {
+  font-size: 64px;
+  line-height: 64px;
+  font-weight: 600;
+  color: #fbfbfb;
+}
+
+.vegetables-span {
+  color: rgba(251, 251, 251, 0.3);
+}
+
+.vegetables-paragraph {
+  font-size: 16px;
+  line-height: 20px;
+  color: #fbfbfb;
+}
+
+.vegetables-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 21px;
+}
+
+.vegetables-card {
+  display: flex;
+  width: 271px;
+  border-radius: 40px;
+  padding: 32px;
+  background-color: #fbfbfb;
+}
+
+.vegetables-card-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.vegetables-item-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.vegetables-item-name {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 600;
+  color: #7a3145;
+}
+
+.vegetables-item-price {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 600;
+}
+
+.vegetables-item-pic {
+  display: flex;
+  width: 282px;
+  height: 243px;
+>>>>>>> nazan
 }
