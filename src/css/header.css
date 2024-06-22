@@ -10,49 +10,31 @@
   margin-left: 100px;
 }
 
-<<<<<<<<< Temporary merge branch 1
-.header-logo-svg-main-div{
-  display: flex;
-  align-items: flex-start;
-}
-.header-logo-svg-div{   
-  color: #FBFBFB;
-  width: 194px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-around;
-  margin-left: 100px;
-}
-
-.header-logo-svg-text-div{ 
-  max-width: 168px;
-  height: auto;
-  margin-left: 8px;
-=========
-.header-logo-svg-main-div {
+.header-logo-svg-div {
   color: #fbfbfb;
   display: flex;
   margin-left: 100px;
 }
+
 .header-logo-svg-icon {
   max-width: 194px;
   height: 18px;
 }
 
-.header-menu-ul-button-div {
+.header-nav-div {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   margin-right: 100px;
 }
-.header-menu-ul {
+.header-nav-ul {
   display: flex;
   align-items: center;
   margin-right: 20px;
 }
 
-.header-menu-li {
-  border: 1px solid rgba(255, 255, 255, 0.4);
+.header-nav-li {
+  border: 1px solid rgba(251, 251, 251, 0.4);
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -64,7 +46,7 @@
   max-height: 44px;
 }
 
-.header-button {
+.header-nav-button {
   align-items: center;
   width: 157px;
   height: 52px;
@@ -76,48 +58,6 @@
   font-size: 18px;
 }
 
-.header-button:hover {
-  background-color: #622133;
->>>>>>>>> Temporary merge branch 2
-}
-
-.header-menu-ul-button-div{
-  display: flex;
-  align-items: center;
-  margin-right: 100px;
-}
-.header-menu-ul{
-  display: flex;
-  align-items: center;
-  margin-right: 20px;
-}
-
-.header-menu-li{
-  border: 1px solid  rgba(255, 255, 255,0.4);
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-  line-height: 1em;
-  color: #FBFBFB;
-  margin-right: 8px;
-  max-height: 44px;
-}
-
-.header-button{
-  align-items: center;
-  width: 157px;
-  height: 52px;
-  border-radius: 30px;
-  border-style: none;
-  background-color: #7A3145;
-  color: #FBFBFB;
-  line-height: 1.2em;
-  font-size: 18px;
-  font-family: Inter Tight, semibold;
-}
-
-.header-button:hover{
+.header-nav-button:hover {
   background-color: #622133;
 }
