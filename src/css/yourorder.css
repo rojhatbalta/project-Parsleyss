@@ -77,12 +77,20 @@
   padding: 16px;
 }
 
+.form-item:focus {
+  outline-color: #7a3145;
+}
+
 .form-textarea {
   resize: none;
   height: 65px;
   border: 1px solid rgba(20, 20, 20, 0.2);
   border-radius: 15px;
   padding: 16px;
+}
+
+.form-textarea {
+  outline-color: #7a3145;
 }
 
 .form-button {
