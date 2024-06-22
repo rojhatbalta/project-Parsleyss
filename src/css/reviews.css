@@ -19,6 +19,7 @@
   font-size: 64px;
   line-height: 64px;
   font-weight: 600;
+  width: 95%;
 }
 
 .span-customers {
@@ -28,6 +29,7 @@
 .reviews-paragraph {
   font-size: 16px;
   line-height: 20px;
+  width: 90%;
 }
 
 .reviews-cards {
@@ -67,4 +69,12 @@
   line-height: 22.4px;
   text-align: center;
   color: rgba(20, 20, 20, 0.4);
+}
+
+@media (max-width: 800px) {
+  
+}
+
+@media (max-width: 350px) {
+  
 }
