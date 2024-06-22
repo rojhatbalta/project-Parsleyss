@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .footer {
   background-color: #7a3145;
 }
@@ -55,4 +56,74 @@
 }
 .copy {
   padding-right: 50px;
+=======
+.footer-first {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1080px;
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  gap: 125px;
+  color: #fbfbfb;
+  background-color: #7a3145;
+}
+.logo-n-menu-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo-n-text {
+  display: flex;
+  flex-direction: column;
+  width: 265px;
+  gap: 25px;
+}
+.footer-svg {
+  height: 18px;
+}
+.logo-text {
+  font-size: 16px;
+  line-height: 20px;
+}
+.menu-contacts-footer {
+  display: flex;
+  flex-direction: row;
+  gap: 121px;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.footer-menu-item {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 215px;
+  gap: 25px;
+}
+.menu-contact-item {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.policy-copy-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.privacy-n-cookie {
+  font-size: 18px;
+  line-height: 20px;
+  color: rgba(251, 251, 251, 0.5);
+>>>>>>> 94ba30685e856af67c901fd2d1070a5677312ed3
 }

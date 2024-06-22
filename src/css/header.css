@@ -10,31 +10,51 @@
   margin-left: 100px;
 }
 
+<<<<<<< HEAD
 .header-logo-svg-div {
+=======
+.header-logo-svg-main-div {
+>>>>>>> 94ba30685e856af67c901fd2d1070a5677312ed3
   color: #fbfbfb;
   display: flex;
   margin-left: 100px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 94ba30685e856af67c901fd2d1070a5677312ed3
 .header-logo-svg-icon {
   max-width: 194px;
   height: 18px;
 }
 
+<<<<<<< HEAD
 .header-nav-div {
+=======
+.header-menu-ul-button-div {
+>>>>>>> 94ba30685e856af67c901fd2d1070a5677312ed3
   display: flex;
   align-items: center;
   justify-content: flex-end;
   margin-right: 100px;
 }
+<<<<<<< HEAD
 .header-nav-ul {
+=======
+.header-menu-ul {
+>>>>>>> 94ba30685e856af67c901fd2d1070a5677312ed3
   display: flex;
   align-items: center;
   margin-right: 20px;
 }
 
+<<<<<<< HEAD
 .header-nav-li {
   border: 1px solid rgba(251, 251, 251, 0.4);
+=======
+.header-menu-li {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+>>>>>>> 94ba30685e856af67c901fd2d1070a5677312ed3
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -46,7 +66,11 @@
   max-height: 44px;
 }
 
+<<<<<<< HEAD
 .header-nav-button {
+=======
+.header-button {
+>>>>>>> 94ba30685e856af67c901fd2d1070a5677312ed3
   align-items: center;
   width: 157px;
   height: 52px;
@@ -58,6 +82,10 @@
   font-size: 18px;
 }
 
+<<<<<<< HEAD
 .header-nav-button:hover {
+=======
+.header-button:hover {
+>>>>>>> 94ba30685e856af67c901fd2d1070a5677312ed3
   background-color: #622133;
 }
