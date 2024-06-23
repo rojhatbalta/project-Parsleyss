@@ -1,8 +1,8 @@
 .section-yourorder {
-  margin: auto;
+  margin: 0;
   display: flex;
   flex-direction: column;
-  width: 1080px;
+  width: calc(100%-224px);
   padding: 100px;
   gap: 50px;
   background-color: #7a3145;
@@ -11,7 +11,7 @@
 .yourorder-text {
   display: flex;
   flex-direction: column;
-  width: 790px;
+  width: calc(70%);
   gap: 25px;
 }
 
@@ -43,7 +43,7 @@
 .yourorder-form-section {
   display: flex;
   flex-direction: column;
-  width: 479px;
+  width: calc((100%-274px) / 2);
   padding: 50px;
   gap: 50px;
   border-radius: 30px;
@@ -103,7 +103,7 @@
 .yourorder-social {
   display: flex;
   flex-direction: column;
-  width: 427px;
+  width: calc((100%-274px) / 2);
   height: 433px;
   padding: 50px;
   gap: 50px;
