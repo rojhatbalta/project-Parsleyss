@@ -1,97 +1,71 @@
-.section-reviews {
-  display: flex;
-  flex-direction: column;
-  width: calc((100%-100px));
-  padding: 100px;
-  gap: 50px;
-  background-color: #FBFBFB;
-  margin: auto;
-}
-
-.reviews-text {
-  display: flex;
-  flex-direction: column;
-  width: 630px;
-  gap: 25px;
-}
-
-.reviews-header {
-  font-size: 64px;
-  line-height: 64px;
-  font-weight: 600;
-  width: 95%;
-}
-
-.span-customers {
-  color: #576f35;
-}
-
-.reviews-paragraph {
-  font-size: 16px;
-  line-height: 20px;
-  width: 90%;
-}
-
-.reviews-cards {
-  display: flex;
-  flex-direction: row;
-  gap: 25px;
-  width: calc((100%-100px));
-}
-
-.review-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: calc((100%-100px)/3);
-  height: 258px;
-  padding: 20px;
-  gap: 24px;
-  border: 1px solid rgba(122, 49, 69, 0.3);
-  border-radius: 24px;
-}
-
-.card-img {
-  width: 56px;
-  height: 56px;
-  border-radius: 72px;
-}
-
-.card-name {
-  font-size: 18px;
-  line-height: 19.8px;
-  font-weight: 600;
-}
-
-.card-content {
-  display: flex;
-  font-size: 16px;
-  line-height: 22.4px;
-  text-align: center;
-  color: rgba(20, 20, 20, 0.4);
-}
-
-@media (max-width: 768px) {
-  #ihor {
-    display: none;
+.reviews-section {
+    background-color: #fbfbfb;
+    padding: 100px;
   }
-  .review-card {
-    width: calc((100%-100px)/2);
-    gap: 24px;
-  }
-}
-
-
-@media (max-width: 320px) {
   
-  #victoria {
-    display: none;
+  .customers-container {
+    padding: 24px;
+    width: 343px;
+    height: 258px;
   }
-   #ihor {
-    display: none;
+  
+  .review-title {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 64px;
+    color: #141414;
+    width: 40%;
   }
-  .review-card {
-    width: calc((100%-50px));
+  .customers-span {
+    color: #576F35;
   }
-}
+  .title-text {
+    color: #141414;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    width: 33%;
+  }
+  
+  #customer-ul {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+  }
+  .customer-list {
+    width: calc((100%-100px)/3);
+    border: 1px solid rgba(122, 49, 69, 0.3);
+    border-radius: 25px;
+    padding: 20px;
+    border-radius: 24px;
+  }
+  .customer-img {
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    margin: 0 auto;
+  }
+  .customer-texts {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    width: 90%
+  }
+  .subtitle {
+    color: #141414;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 19.8px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+  .text {
+    color: rgba(20, 20, 20, 0.4);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+  
