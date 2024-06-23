@@ -17,6 +17,8 @@
 
 .yourorder-header {
   font-size: 64px;
+  line-height: 64px;
+  letter-spacing: 0.04em;
   font-weight: 600;
   line-height: 100%;
   color: #fbfbfb;
@@ -133,4 +135,35 @@
   line-height: 32px;
   font-weight: 600;
   color: #fbfbfb;
+}
+
+@media (max-width:768) {
+  .section-yourorder{
+    width: 768;
+    padding: 0;
+    gap: 25px;
+  }
+  .yourorder-text{
+    width: 768;
+    padding-left: 32px;
+    padding-right: 96px;
+  }
+  .form-n-social{
+    display: flex;
+    flex-direction: column;
+    width: calc(100%-140px);
+    gap: 25px;
+    padding-right: 70px;
+    padding-left: 70px;
+  }
+  .yourorder-form-section{
+    width: calc(100%-140px);
+  }
+  .yourorder-form{
+    gap: 10px;
+  }
+}
+
+@media (max-width:320) {
+
 }
