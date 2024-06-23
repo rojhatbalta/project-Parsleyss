@@ -144,7 +144,7 @@
     gap: 25px;
   }
   .yourorder-text {
-    width: 768;
+    width: 768px;
     padding-left: 32px;
     padding-right: 96px;
   }
@@ -168,4 +168,42 @@
 }
 
 @media (max-width: 320) {
+  .section-yourorder {
+    width: 375px;
+    padding-left: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 20px;
+    gap: 40px;
+  }
+  .yourorder-text {
+    width: 335px;
+    padding-left: 32px;
+    padding-right: 96px;
+    gap: 29px;
+  }
+  .form-n-social {
+    display: flex;
+    flex-direction: column;
+    width: 335px;
+    gap: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+  }
+  .yourorder-form-section {
+    width: 335px;
+  }
+  .yourorder-form {
+    gap: 10px;
+  }
+  .yourorder-social {
+    width: 335px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    gap: 20px;
+  }
 }
