@@ -1,24 +1,19 @@
-.section-yourorder {
-  margin: auto;
+.yourorder-section {
+  position: relative;
   display: flex;
   flex-direction: column;
-  width: 1080px;
+  width: 1280px;
   padding: 100px;
   gap: 50px;
   background-color: #7a3145;
-}
-
-.yourorder-text {
-  display: flex;
-  flex-direction: column;
-  width: 790px;
-  gap: 25px;
 }
 
 .yourorder-header {
   font-size: 64px;
   font-weight: 600;
   line-height: 100%;
+  letter-spacing: 0.04em;
+  width: 50%;
   color: #fbfbfb;
 }
 
@@ -28,22 +23,30 @@
 
 .yourorder-paragraph {
   font-size: 16px;
+  font-weight: 500;
   line-height: 20px;
+  letter-spacing: 0.02em;
+  width: 50%;
   color: #fbfbfb;
 }
 
-.form-n-social {
+.form-section {
   display: flex;
   flex-direction: row;
   gap: 24px;
 }
 
-.yourorder-form-section {
+.yourorder-form {
+  width: 529px;
+  height: 534px;
+}
+
+.form-item-container {
   display: flex;
   flex-direction: column;
-  width: 479px;
+  align-items: center;
   padding: 50px;
-  gap: 50px;
+  gap: 10px;
   border-radius: 30px;
   background-color: #fbfbfb;
 }
@@ -63,34 +66,10 @@
   color: #576f35;
 }
 
-.yourorder-form {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 15px;
-}
-
 .form-item {
-  border: 1px solid rgba(20, 20, 20, 0.2);
+  width: 90%;
   border-radius: 30px;
   padding: 16px;
-}
-
-.form-item:focus {
-  outline-color: #7a3145;
-}
-
-.form-textarea {
-  resize: none;
-  height: 65px;
-  border: 1px solid rgba(20, 20, 20, 0.2);
-  border-radius: 15px;
-  padding: 16px;
-}
-
-.form-textarea {
-  outline-color: #7a3145;
 }
 
 .form-button {
@@ -98,7 +77,7 @@
   color: #fbfbfb;
 }
 
-.yourorder-social {
+.social-media-section {
   display: flex;
   flex-direction: column;
   width: 427px;
@@ -116,8 +95,6 @@
 }
 
 .social-media-link-section {
-  display: flex;
-  flex-direction: column;
   gap: 15px;
 }
 
