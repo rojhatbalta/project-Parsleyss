@@ -6,7 +6,7 @@
   margin: auto;
 }
 /*tablet*/
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .section-advertisement {
     width: 768px;
     height: 488px;
@@ -34,15 +34,15 @@
     width: 736px;
     height: 288px;
   }
-} 
+}
 /*mobile*/
-@media (max-width:320px) {
+@media (max-width: 320px) {
   .section-advertisement {
     width: 375px;
     height: 469px;
     padding: 100px;
     background-color: #fbfbfb;
-    display: flex; 
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -61,8 +61,6 @@
   .advertisement-container {
     width: 355px;
     height: 309px;
-
-
   }
 }
 .advertisement-header {
