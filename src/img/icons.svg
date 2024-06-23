@@ -25,9 +25,9 @@
 <path d="M187.064 16.8V4.58H182.499V2.2H194.5V4.58H189.956V16.8H187.064Z" fill="#FBFBFB"/>
 </symbol>
 
-<svg id="nav-line"width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<symbol id="nav-line"width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M2.66663 2H29.3333M2.66663 12H16M2.66663 22H29.3333" stroke="#FBFBFB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+</symbol>
 
 <symbol id="icon" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M16.3587 0.176539H14.1034C13.4075 0.176539 12.8433 0.729391 12.8433 1.41141V3.62163C12.8433 4.30365 13.4075 4.85654 14.1034 4.85654H16.3587C17.0547 4.85654 17.6188 4.30365 17.6188 3.62163V1.41141C17.6188 0.729391 17.0547 0.176539 16.3587 0.176539Z" fill="#FBFBFB"/>

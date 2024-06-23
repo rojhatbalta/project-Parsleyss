@@ -64,7 +64,7 @@
   }
 
 .hero-green-color-div{
-  height: 485px;
+  max-height: 485px;
 }
 
 .hero-section-h1-title{
@@ -96,5 +96,63 @@
   width: auto;
   object-fit: cover;
 }
-
 }
+
+@media (max-width: 375px) {
+  .hero-section {
+        margin-top: 0;
+        margin: auto;
+        width: 375px;
+        height: 812px;
+        background-color: #576F35;    
+    }
+    
+  .hero-section-main-div{
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+  
+  .hero-green-color-div{
+    max-height: 442px;
+  }
+  
+  .hero-section-h1-title{
+    font-family: Inter,sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FBFBFB;
+    width: 335px;
+    height: 192px;
+    word-wrap: break-word;
+    padding-bottom: 25px;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 131px;
+  }
+  
+  .hero-section-p-text{
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 32px;
+    color: #FBFBFB;
+    width: 335px;
+    height: 90px;
+    word-wrap: break-word;
+    padding-bottom: 50px;
+  }
+  
+  .hero-img-div{
+    width: 375px;
+    max-height: 370px;
+  }
+  .hero-section-img{
+    width: 375px;
+    max-height: 370px;
+    object-fit: cover;
+  }
+  
+  }
