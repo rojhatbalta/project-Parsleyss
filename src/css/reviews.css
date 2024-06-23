@@ -1,7 +1,7 @@
 .section-reviews {
   display: flex;
   flex-direction: column;
-  width: calc((100%-100px));
+  width: 1080px;
   padding: 100px;
   gap: 50px;
   background-color: #FBFBFB;
@@ -72,26 +72,91 @@
   color: rgba(20, 20, 20, 0.4);
 }
 
-@media (max-width: 768px) {
-  #ihor {
-    display: none;
-  }
-  .review-card {
-    width: calc((100%-100px)/2);
-    gap: 24px;
-  }
-}
 
 
-@media (max-width: 320px) {
-  
+  /*
+  RESPONSİVE TASARIMDA "REVİEWS-TEXT" SINIFINDA BİR SIKINTI YAŞIYORUM. 
+  TABLET VERSİYONDAKİ REVİEWS-TEXT İÇERİKLERİNİ DÜZGÜN YAPTIĞIM ZAMAN MOBİLE'IN REVİEWS-TEXT'İ BOZULUYOR, 
+  MOBİLE VERSİYONDAKİ REVİEWS-TEXT İÇERİKLERİNİ DÜZGÜN YAPTIĞIMDA İSE TABLET VERSİYONDAKİ REVİEWS-TEXT KISMI BOZULUYOR.
+  */
+
+
+
+@media (max-width: 375px) {
   #victoria {
     display: none;
   }
    #ihor {
     display: none;
   }
+
+
+  .section-reviews {
+    padding: 0;
+    margin: 80px 20px 80px 20px;
+  }
+  .reviews-text {
+    gap: 20px;
+  }
+  .reviews-header {
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: -0.070em;
+    width: 70px;
+  }
+  .reviews-paragraph {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.080em;
+  }
+
+
   .review-card {
-    width: calc((100%-50px));
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 27%;
+  }
+  .card-name {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .card-content {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  #ihor {
+    display: none;
+  }
+
+  .section-reviews {
+    padding: 0;
+    margin: 80px 18px 80px 18px;
+  }
+ 
+
+  .reviews-header {
+    height: 55px;
+    font-size: 48px;
+    line-height: 50px;
+    width: 69%;
+    margin-bottom: 50px;
+  }
+  .reviews-paragraph {
+    font-size: 14px;
+    line-height: 18px;
+    width: 72%;
+    letter-spacing: -0.010em;
+  }
+  
+
+   .review-card {
+    width: 26.9%;
+    margin-top: -14px;
   }
 }
