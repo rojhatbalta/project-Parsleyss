@@ -21,11 +21,15 @@
   height: 18px;
 }
 
-.header-nav-div {
+.header-nav {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   margin-right: 100px;
+}
+
+.header-nav-svg {
+  display: none;
 }
 .header-nav-ul {
   display: flex;
@@ -60,4 +64,212 @@
 
 .header-nav-button:hover {
   background-color: #622133;
+}
+
+.side-nav-div {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .hidden {
+    display: none;
+  }
+  .header-main-div {
+    position: absolute;
+    z-index: 1;
+    width: 768px;
+    height: 1024px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+
+  .header-logo-svg-div {
+    color: #fbfbfb;
+    width: 704px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 32px;
+  }
+
+  .header-nav-svg {
+    display: flex;
+    align-items: center;
+    color: #fbfbfb;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    visibility: visible;
+  }
+
+  .header-nav-svg:hover + nav .side-nav-div-active {
+    transform: translateX(0);
+  }
+
+  .side-nav-div {
+    background-color: #7a3145;
+    width: 351px;
+    max-height: 1024px;
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 50px;
+    height: 1024px;
+    right: -100½;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    transform: translateX(100%);
+    transition: transform 0.1s ease-in-out;
+  }
+
+  .side-nav-ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 414px;
+    margin-right: 0px;
+  }
+
+  .side-nav-li {
+    padding: 12px;
+    line-height: 1em;
+    color: #fbfbfb;
+    margin-top: 8px;
+    max-height: 44px;
+    width: 114px;
+  }
+
+  .side-nav-li:hover {
+    background-color: #fbfbfb;
+    color: #7a3145;
+  }
+
+  .side-nav-button {
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    align-items: center;
+    width: 157px;
+    height: 52px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: #7a3145;
+    color: #fbfbfb;
+    line-height: 1.2em;
+    font-size: 18px;
+  }
+
+  .side-nav-button:hover {
+    background-color: #fbfbfb;
+    color: #7a3145;
+  }
+}
+
+@media (max-width: 375px) {
+  .hidden {
+    display: none;
+  }
+  .header-main-div {
+    position: absolute;
+    z-index: 1;
+    width: 375px;
+    height: 812px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+
+  .header-logo-svg-icon {
+    width: 168px;
+    height: 16px;
+  }
+  .header-logo-svg-div {
+    color: #fbfbfb;
+    width: 335px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 32px;
+  }
+
+  .header-nav-svg {
+    display: flex;
+    align-items: center;
+    color: #fbfbfb;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    visibility: visible;
+  }
+
+  .header-nav-svg:hover + nav .side-nav-div-active {
+    transform: translateX(0);
+  }
+
+  .side-nav-div {
+    background-color: #7a3145;
+    width: 351px;
+    max-height: 1024px;
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 50px;
+    height: 1024px;
+    right: -100½;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    transform: translateX(100%);
+    transition: transform 0.1s ease-in-out;
+  }
+
+  .side-nav-ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 414px;
+    margin-right: 0px;
+  }
+
+  .side-nav-li {
+    padding: 12px;
+    line-height: 1em;
+    color: #fbfbfb;
+    margin-top: 8px;
+    max-height: 44px;
+    width: 114px;
+  }
+
+  .side-nav-li:hover {
+    background-color: #fbfbfb;
+    color: #7a3145;
+  }
+
+  .side-nav-button {
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    align-items: center;
+    width: 157px;
+    height: 52px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: #7a3145;
+    color: #fbfbfb;
+    line-height: 1.2em;
+    font-size: 18px;
+  }
+
+  .side-nav-button:hover {
+    background-color: #fbfbfb;
+    color: #7a3145;
+  }
 }

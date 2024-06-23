@@ -1,46 +1,81 @@
-.advertisement-section {
-  width: 1280px;
-  height: 440px;
-}
-.advertisement-div {
+.section-advertisement {
   width: 1080px;
   height: 240px;
-  left: 13px;
-  opacity: 0px;
+  padding: 100px;
   background-color: #fbfbfb;
-  flex-wrap: wrap;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 250px;
-  margin-left: 150px;
-  text-transform: uppercase;
-  text-align: left;
-  white-space: nowrap;
+  margin: auto;
+}
+/*tablet*/
+@media (max-width:768px) {
+  .section-advertisement {
+    width: 768px;
+    height: 488px;
+    padding: 100px;
+    background-color: #fbfbfb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .advertisement-header {
+    font-size: 64px;
+    width: 335px;
+    height: 306px;
+    line-height: 70px;
+    font-weight: 600;
+    padding: 10px;
+  }
+  .advertisement-span {
+    border-radius: 12px;
+    color: #fbfbfb;
+    background-color: #576f35;
+  }
+  .advertisement-container {
+    width: 736px;
+    height: 288px;
+  }
+} 
+/*mobile*/
+@media (max-width:320px) {
+  .section-advertisement {
+    width: 375px;
+    height: 469px;
+    padding: 100px;
+    background-color: #fbfbfb;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .advertisement-span {
+    border-radius: 12px;
+    color: #fbfbfb;
+    background-color: #576f35;
+  }
+  .advertisement-header {
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 600;
+    padding: 10px;
+  }
+  .advertisement-container {
+    width: 355px;
+    height: 309px;
+
+
+  }
+}
+.advertisement-header {
+  font-size: 76px;
+  line-height: 80px;
+  font-weight: 600;
 }
 .advertisement-span {
-  font-family: 'Inter Tight';
-  font-size: 76px;
-  font-weight: 600;
-  line-height: 80px;
-  letter-spacing: -0.015em;
-  text-align: left;
+  border-radius: 12px;
   color: #fbfbfb;
-  border-radius: 12px 0px 0px 0px;
-  width: 808px;
-  height: 86px;
-  background: rgba(87, 111, 53, 1);
+  background-color: #576f35;
 }
-.advertisement-text {
-  font-family: 'Inter Tight';
-  font-size: 76px;
-  font-weight: 600;
-  line-height: 80px;
-  letter-spacing: -0.015em;
-  text-align: left;
-  background: #fbfbfb;
-  width: 1054px;
+.advertisement-container {
+  width: 1080px;
   height: 240px;
-  left: 24px;
-  white-space: nowrap;
 }
