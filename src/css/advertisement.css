@@ -3,6 +3,7 @@
   height: 240px;
   padding: 100px;
   background-color: #fbfbfb;
+  margin: auto;
 }
 /*tablet*/
 @media (max-width:768px) {
@@ -11,11 +12,18 @@
     height: 488px;
     padding: 100px;
     background-color: #fbfbfb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
   .advertisement-header {
     font-size: 64px;
+    width: 335px;
+    height: 306px;
     line-height: 70px;
     font-weight: 600;
+    padding: 10px;
   }
   .advertisement-span {
     border-radius: 12px;
@@ -30,6 +38,10 @@
     height: 469px;
     padding: 100px;
     background-color: #fbfbfb;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
   .advertisement-span {
     border-radius: 12px;
@@ -40,6 +52,7 @@
     font-size: 48px;
     line-height: 50px;
     font-weight: 600;
+    padding: 10px;
   }
 }
 .advertisement-header {

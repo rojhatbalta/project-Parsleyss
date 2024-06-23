@@ -4,6 +4,7 @@
   height: 759px;
   display: flex;
   padding: 100px, 100px, 160px, 100px;
+  margin: auto;
 }
 /*tablet*/
 @media (max-width:768px) {
@@ -12,6 +13,7 @@
   height: 1539px;
   display: flex;
   position: relative;
+  flex-direction: column;
 }
 .image-box {
   width: 768px;
