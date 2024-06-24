@@ -15,18 +15,37 @@
           FILL OUT <span class="span-the-form">THE FORM</span> BELOW AND WE WILL
           CONTACT YOU!
         </p>
-        <input class="form-item" type="text" placeholder="Full Name" />
-        <input class="form-item" type="text" placeholder="Email" />
-        <textarea
-          class="form-item"
-          name="form-comment"
-          id="form-comment"
-          placeholder="Comment"
-        ></textarea>
-        <button class="form-item form-button">SEND</button>
-      </section>
-    </form>
-    <section class="social-media-section">
+      </div>
+      <div>
+        <form class="yourorder-form" action="">
+          <input
+            class="form-item"
+            name="fullname"
+            type="text"
+            placeholder="Full Name"
+            title="Please enter your correct name"
+          />
+          <input
+            class="form-item form-email"
+            name="e-mail"
+            type="email"
+            placeholder="Email"
+            required
+            pattern="[a-z0-9._%*/-]+[a-z0-9./-]+\.[a-z]{2,}$"
+            title="Please enter a valid email address"
+          />
+          <textarea
+            class="form-textarea"
+            name="form-comment"
+            id="form-comment"
+            placeholder="Comment"
+            title="Please enter your comment"
+          ></textarea>
+          <button class="form-item form-button" type="submit">SEND</button>
+        </form>
+      </div>
+    </section>
+    <section class="yourorder-social">
       <img
         class="social-media-img"
         src="../img/yourorder.jpg"
@@ -35,11 +54,11 @@
       <section class="social-media-link-section">
         <p class="social-media-paragraph">Follow us on social network:</p>
         <p class="social-media-link">
-          <a href="">instagram</a>
+          <a class="media-link" href="">instagram</a>
           /
-          <a href="">facebook</a>
+          <a class="media-link" href="">facebook</a>
           /
-          <a href="">youtube</a>
+          <a class="media-link" href="">youtube</a>
         </p>
       </section>
     </section>
